@@ -1,3 +1,27 @@
+header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: darkslategrey;
+    top: 0px;
+}
+#city-of-edmonton-logo {
+    padding-top: 10px;
+    height: 80px;
+}
+#sap-ariba-logo {
+    padding-top: 10px;
+    height: 80px;
+}
+#current-page {
+    color: white;
+}
+#copyright-text {
+    color: black;
+}
+a {
+    text-decoration: none !important;
+}
 #profile-picture {
     width: 168px;
     min-width: 168px;
@@ -6,4 +30,12 @@
 
 #profile-picture:hover, .edit-icon:hover {
     cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: darkslategrey;
+    bottom: 0px;
 }
